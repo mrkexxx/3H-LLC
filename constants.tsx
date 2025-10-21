@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { CreditCardIcon, ZelleIcon, ApplePayIcon } from './components/Icons';
 
@@ -45,7 +46,6 @@ export const TRANSLATIONS = {
       { name: 'Trang Chủ', href: '#home' },
       { name: 'Về Chúng Tôi', href: '#about' },
       { name: 'Các Loại Xe', href: '#fleet' },
-      { name: 'Đặt Xe', href: '#booking' },
       { name: 'Thanh Toán', href: '#payment' },
       { name: 'Liên Hệ', href: '#contact' },
     ],
@@ -94,25 +94,6 @@ export const TRANSLATIONS = {
             }
         ],
     },
-    booking: {
-        title: 'Đặt Xe Ngay',
-        subtitle: 'Hoàn thành biểu mẫu dưới đây để gửi yêu cầu đặt xe của bạn. Chúng tôi sẽ liên hệ lại sớm nhất có thể.',
-        form: {
-            carType: 'Loại xe',
-            carTypeOptions: [
-                'Chọn loại xe',
-                'Sedan / SUV 5 chỗ',
-                'Minivan / SUV 7-9 chỗ',
-                'Van 12-15 chỗ'
-            ],
-            pickupDate: 'Ngày nhận xe',
-            returnDate: 'Ngày trả xe',
-            fullName: 'Họ và Tên',
-            phone: 'Số điện thoại',
-            email: 'Email',
-            submitButton: 'Gửi Yêu Cầu Đặt Xe',
-        }
-    },
     payment: {
         title: 'Thanh toán tiện lợi',
         subtitle: 'Chấp nhận nhiều hình thức thanh toán phổ biến, an toàn và nhanh chóng.',
@@ -131,7 +112,6 @@ export const TRANSLATIONS = {
       { name: 'Home', href: '#home' },
       { name: 'About Us', href: '#about' },
       { name: 'Our Fleet', href: '#fleet' },
-      { name: 'Booking', href: '#booking' },
       { name: 'Payment', href: '#payment' },
       { name: 'Contact', href: '#contact' },
     ],
@@ -179,25 +159,6 @@ export const TRANSLATIONS = {
               imageUrl: "https://sf-static.upanhlaylink.com/img/image_202510103e8e6e8064912622fddb85d7b9789e1b.jpg"
             }
         ],
-    },
-    booking: {
-        title: 'Book Your Car',
-        subtitle: 'Complete the form below to submit your booking request. We will get back to you as soon as possible.',
-        form: {
-            carType: 'Car Type',
-            carTypeOptions: [
-                'Select a car type',
-                'Sedan / SUV 5-Seater',
-                'Minivan / SUV 7-9 Seater',
-                'Van 12-15 Seater'
-            ],
-            pickupDate: 'Pickup Date',
-            returnDate: 'Return Date',
-            fullName: 'Full Name',
-            phone: 'Phone Number',
-            email: 'Email',
-            submitButton: 'Submit Booking Request',
-        }
     },
     payment: {
         title: 'Convenient Payments',

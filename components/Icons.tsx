@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 type IconProps = {
@@ -51,12 +52,6 @@ export const ZelleIcon: React.FC<IconProps> = ({ className }) => (
 export const ApplePayIcon: React.FC<IconProps> = ({ className }) => (
     <svg xmlns="http://www.w3.org/2000/svg" className={className} viewBox="0 0 64 64" fill="currentColor">
         <path d="M41.01 13.25c-4.14 0-7.46 2.37-9.45 2.37-2.02 0-5.96-2.46-9.98-2.46-8.1 0-14.05 5.86-14.05 14.58 0 10.3 8.85 24.99 15.65 24.99 2.76 0 4.1-1.63 8.35-1.63 4.25 0 5.25 1.63 8.39 1.63 7.04 0 15.45-14.72 15.45-25.13 0-7.39-4.83-14.25-10-14.25zm-2.27-5.96c2.47-2.69 4.14-6.42 3.65-10.29-3.23.2-6.91 2.06-9.35 4.75-2.2 2.47-4.25 6.36-3.79 10.13 3.62.33 7.02-2.02 9.49-4.59z"/>
-    </svg>
-);
-
-export const CalendarIcon: React.FC<IconProps> = ({ className }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
     </svg>
 );
 
