@@ -166,14 +166,24 @@ const Footer: React.FC<FooterProps> = ({ content }) => (
         </div>
         <div>
           <h3 className="text-lg font-semibold tracking-wider uppercase text-amber-400">{content.contactTitle}</h3>
-          <ul className="mt-4 space-y-3">
-            <li className="flex items-center justify-center md:justify-start">
-              <PhoneIcon className="h-5 w-5 mr-3 text-amber-400" />
-              <a href={`tel:${CONTACT_INFO.phone_vn}`} className="hover:text-white transition-colors">{CONTACT_INFO.phone_vn} (Tiếng Việt)</a>
+          <ul className="mt-4 space-y-4">
+            <li className="flex items-center justify-center md:justify-start flex-wrap">
+              <PhoneIcon className="h-5 w-5 mr-3 text-amber-400 flex-shrink-0" />
+              <span className="mr-2 text-gray-300">{CONTACT_INFO.phone_vn} (Tiếng Việt)</span>
+              <span className="text-amber-400 font-medium whitespace-nowrap">
+                (<a href={`tel:${CONTACT_INFO.phone_vn}`} className="hover:text-white transition-colors px-1">Call</a>
+                /
+                <a href={`sms:${CONTACT_INFO.phone_vn}`} className="hover:text-white transition-colors px-1">Text</a>)
+              </span>
             </li>
-            <li className="flex items-center justify-center md:justify-start">
-              <PhoneIcon className="h-5 w-5 mr-3 text-amber-400" />
-              <a href={`tel:${CONTACT_INFO.phone_en}`} className="hover:text-white transition-colors">{CONTACT_INFO.phone_en} (English)</a>
+            <li className="flex items-center justify-center md:justify-start flex-wrap">
+              <PhoneIcon className="h-5 w-5 mr-3 text-amber-400 flex-shrink-0" />
+              <span className="mr-2 text-gray-300">{CONTACT_INFO.phone_en} (English)</span>
+               <span className="text-amber-400 font-medium whitespace-nowrap">
+                (<a href={`tel:${CONTACT_INFO.phone_en}`} className="hover:text-white transition-colors px-1">Call</a>
+                /
+                <a href={`sms:${CONTACT_INFO.phone_en}`} className="hover:text-white transition-colors px-1">Text</a>)
+              </span>
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <MailIcon className="h-5 w-5 mr-3 text-amber-400" />
