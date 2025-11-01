@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Header';
 import { FleetCard } from './components/FleetCard';
@@ -107,7 +106,7 @@ const FleetSection: React.FC<FleetSectionProps> = ({ content }) => {
               {content.subtitle}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="flex flex-wrap justify-center gap-10">
             {content.vehicles.map((car) => (
               <FleetCard key={car.category} {...car} buttonText={content.ctaButton}/>
             ))}

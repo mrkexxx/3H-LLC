@@ -9,7 +9,7 @@ interface FleetCardProps {
 
 export const FleetCard: React.FC<FleetCardProps> = ({ category, description, imageUrl, buttonText }) => {
   return (
-    <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-amber-500/10 hover:-translate-y-2">
+    <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden group transition-all duration-300 hover:shadow-amber-500/10 hover:-translate-y-2 w-full max-w-sm">
       <div className="overflow-hidden h-56">
         <img className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={imageUrl} alt={category} />
       </div>

@@ -74,7 +74,7 @@ export const TRANSLATIONS = {
     },
     fleet: {
         title: 'Các dòng xe cho thuê',
-        subtitle: 'Đa dạng các loại xe từ sedan, SUV đến van 15 chỗ, đáp ứng mọi nhu cầu của bạn.',
+        subtitle: 'Đa dạng các loại xe từ sedan đến SUV, đáp ứng mọi nhu cầu của bạn.',
         ctaButton: 'Liên hệ để thuê',
         vehicles: [
             {
@@ -86,18 +86,13 @@ export const TRANSLATIONS = {
               category: "Minivan và SUV 7-9 chỗ",
               description: "Không gian rộng rãi, thoải mái cho các nhóm lớn hoặc gia đình đông thành viên đi du lịch xa.",
               imageUrl: "https://sf-static.upanhlaylink.com/img/image_2025101086c8398bc669e28cfb1ae4e0dea2f2ea.jpg"
-            },
-            {
-              category: "Van 12 và 15 chỗ",
-              description: "Lựa chọn lý tưởng cho các đoàn du lịch, sự kiện công ty, đảm bảo hành trình tiện nghi và an toàn.",
-              imageUrl: "https://sf-static.upanhlaylink.com/img/image_202510103e8e6e8064912622fddb85d7b9789e1b.jpg"
             }
         ],
     },
     payment: {
         title: 'Thanh toán tiện lợi',
         subtitle: 'Chấp nhận nhiều hình thức thanh toán phổ biến, an toàn và nhanh chóng.',
-        creditCardNote: 'Đặc biệt: Nhận thanh toán bằng thẻ tín dụng (Credit Card) mà không bị tính thêm phí thẻ.',
+        creditCardNote: 'Nhận thanh toán bằng thẻ tín dụng (Credit Card) mà không bị tính thêm phí thẻ.',
         methods: paymentMethods,
     },
     footer: {
@@ -140,7 +135,7 @@ export const TRANSLATIONS = {
     },
     fleet: {
         title: 'Our Rental Fleet',
-        subtitle: 'A variety of vehicles from sedans, SUVs, to 15-passenger vans to meet all your needs.',
+        subtitle: 'A variety of sedans and SUVs to meet all your needs.',
         ctaButton: 'Contact to Rent',
         vehicles: [
             {
@@ -152,18 +147,13 @@ export const TRANSLATIONS = {
               category: "7-9 Seater Minivans and SUVs",
               description: "Spacious and comfortable for large groups or families on long trips.",
               imageUrl: "https://sf-static.upanhlaylink.com/img/image_2025101086c8398bc669e28cfb1ae4e0dea2f2ea.jpg"
-            },
-            {
-              category: "12 and 15 Seater Vans",
-              description: "The ideal choice for tour groups and company events, ensuring a comfortable and safe journey.",
-              imageUrl: "https://sf-static.upanhlaylink.com/img/image_202510103e8e6e8064912622fddb85d7b9789e1b.jpg"
             }
         ],
     },
     payment: {
         title: 'Convenient Payments',
         subtitle: 'We accept many popular, secure, and fast payment methods.',
-        creditCardNote: 'Special: We accept credit card payments without any additional card fees.',
+        creditCardNote: 'We accept credit card payments without any additional card fees.',
         methods: paymentMethods,
     },
     footer: {
