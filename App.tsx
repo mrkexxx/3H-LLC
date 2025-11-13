@@ -158,9 +158,9 @@ const Footer: React.FC<FooterProps> = ({ content }) => (
         <div className="md:col-span-1">
           <h3 className="font-serif text-2xl font-bold text-white">{CONTACT_INFO.name}</h3>
           <p className="mt-4 text-gray-400">{content.tagline}</p>
-            <div className="mt-4 flex justify-center md:justify-start items-center text-gray-400">
-                 <MapPinIcon className="h-5 w-5 mr-3 text-amber-400"/>
-                 <span>{CONTACT_INFO.address}</span>
+            <div className="mt-4 flex justify-center md:justify-start items-start text-gray-400">
+                 <MapPinIcon className="h-5 w-5 mr-3 text-amber-400 flex-shrink-0 mt-1"/>
+                 <span className="whitespace-pre-line">{CONTACT_INFO.address}</span>
             </div>
         </div>
         <div>

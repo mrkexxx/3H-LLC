@@ -8,7 +8,7 @@ export const CONTACT_INFO = {
   phone_en: "714-548-8799",
   email: "management.american3hllc@gmail.com",
   facebook: "https://www.facebook.com/profile.php?id=61581792450296",
-  address: "Garden Grove, Orange County, California"
+  address: "Location:\n10055 Lampson Ave, Garden Grove, CA 92840\n\nMailing address:\nPO BOX 2156, Garden Grove, CA 92842"
 };
 
 const paymentMethods = [
