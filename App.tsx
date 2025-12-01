@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Header';
 import { FleetCard } from './components/FleetCard';
@@ -182,6 +183,15 @@ const Footer: React.FC<FooterProps> = ({ content }) => (
                 (<a href={`tel:${CONTACT_INFO.phone_en}`} className="hover:text-white transition-colors px-1">Call</a>
                 /
                 <a href={`sms:${CONTACT_INFO.phone_en}`} className="hover:text-white transition-colors px-1">Text</a>)
+              </span>
+            </li>
+            <li className="flex items-center justify-center md:justify-start flex-wrap">
+              <PhoneIcon className="h-5 w-5 mr-3 text-amber-400 flex-shrink-0" />
+              <span className="mr-2 text-gray-300">{CONTACT_INFO.phone_management} (Management)</span>
+               <span className="text-amber-400 font-medium whitespace-nowrap">
+                (<a href={`tel:${CONTACT_INFO.phone_management}`} className="hover:text-white transition-colors px-1">Call</a>
+                /
+                <a href={`sms:${CONTACT_INFO.phone_management}`} className="hover:text-white transition-colors px-1">Text</a>)
               </span>
             </li>
             <li className="flex items-center justify-center md:justify-start">
